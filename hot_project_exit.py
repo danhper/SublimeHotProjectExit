@@ -14,3 +14,4 @@ class HotProjectExit(sublime_plugin.WindowCommand):
             "cells": [[0, 0, 1, 1]]
         })
         self.window.run_command("close_window")
+        self.window.run_command("exit")
